@@ -4,4 +4,9 @@
 
 {% block content %}
 <h1>Hi Again you cutie!!!!</h1>
+    <br>
+{#    {{ api.0 }}#}
+    Air Quality Index: {{ api.0.AQI }}<br>
+    Reporting Area: {{ api.0.ReportingArea }}<br>
+    Category: {{ api.0.Category.Name }}
 {% endblock %}
